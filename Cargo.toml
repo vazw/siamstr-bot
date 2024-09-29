@@ -1,0 +1,9 @@
+[package]
+name = "dvm-siamstr-note"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nostr-sdk = { version = "0.35.0", features = ["all-nips"] }
+tokio = { version = "1.40.0", features = ["full"] }
+reqwest = { version ="0.11.20", features = ["json"] }
